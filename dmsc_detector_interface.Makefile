@@ -76,10 +76,12 @@ TEMPLATES += $(wildcard $(APPPROTO)/*.proto)
 
 
 SOURCES += $(APPSRC)/getTimeStamp_aSub.c
+SOURCES += $(APPSRC)/convertIPAddress.cpp
 # # DBDINC_SRCS should be last of the series of SOURCES
 # SOURCES += $(DBDINC_SRCS)
 
 DBDS += $(APPSRC)/detectorinterface.dbd
+DBDS += $(APPSRC)/convertIPAddress.dbd
 
 #
 # $(DBDINC_DEPS): $(DBDINC_HDRS)
