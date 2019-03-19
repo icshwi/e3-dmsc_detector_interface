@@ -12,3 +12,5 @@ core.*
 .cvsignore
 *_old/
 *PVs.list
+*-loc/*.Makefile
+dmsc_detector_interface*/*.Makefile
