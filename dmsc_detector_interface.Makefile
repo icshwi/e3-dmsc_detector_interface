@@ -76,6 +76,7 @@ TEMPLATES += $(wildcard $(APPPROTO)/*.proto)
 
 
 SOURCES += $(APPSRC)/getTimeStamp_aSub.c
+SOURCES += $(APPSRC)/syncState_aSub.c
 SOURCES += $(APPSRC)/convertIPAddress.cpp
 SOURCES += $(APPSRC)/convertMACAddress.cpp
 SOURCES += $(APPSRC)/generateHexString.c
